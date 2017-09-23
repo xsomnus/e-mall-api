@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name></display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>lx</servlet-name>
+    <servlet-class>utils.web.servlet.lx</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DruidStatView</servlet-name>
+    <servlet-class>com.alibaba.druid.support.http.StatViewServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>advertisement</servlet-name>
+    <servlet-class>com.advertisement.servlet.advertisement</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Select_left_Group</servlet-name>
+    <servlet-class>com.firstpage.servlet.Select_left_Group</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Select_right_goods</servlet-name>
+    <servlet-class>com.firstpage.servlet.Select_right_goods</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Select_Search_Goods</servlet-name>
+    <servlet-class>com.firstpage.servlet.Select_Search_Goods</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Select_GoodsDetail</servlet-name>
+    <servlet-class>com.firstpage.servlet.Select_GoodsDetail</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Upload_order</servlet-name>
+    <servlet-class>com.order.operater.Upload_order</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Upload_Shop_cart</servlet-name>
+    <servlet-class>com.operater.servlet.Upload_Shop_cart</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Select_order</servlet-name>
+    <servlet-class>com.order.operater.Select_order</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Select_Shop_cart</servlet-name>
+    <servlet-class>com.operater.servlet.Select_Shop_cart</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Select_User_Address</servlet-name>
+    <servlet-class>com.address.operater.Select_User_Address</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Add_User_Address</servlet-name>
+    <servlet-class>com.address.operater.Add_User_Address</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Update_User_Address</servlet-name>
+    <servlet-class>com.address.operater.Update_User_Address</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>User_Log_in</servlet-name>
+    <servlet-class>com.operater.servlet.User_Log_in</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>User_Register</servlet-name>
+    <servlet-class>com.operater.servlet.User_Register</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Get_TelPhone_Code</servlet-name>
+    <servlet-class>com.operater.servlet.Get_TelPhone_Code</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Update_User_Pass</servlet-name>
+    <servlet-class>com.operater.servlet.Update_User_Pass</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Html_Select_Shop_Car</servlet-name>
+    <servlet-class>com.advertisement.servlet.Html_Select_Shop_Car</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Set_Address_Default</servlet-name>
+    <servlet-class>com.address.operater.Set_Address_Default</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Delete_Address</servlet-name>
+    <servlet-class>com.address.operater.Delete_Address</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Address_PayWay_SendMoney</servlet-name>
+    <servlet-class>com.address.operater.Address_PayWay_SendMoney</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Select_collect_browse_Goods</servlet-name>
+    <servlet-class>com.firstpage.servlet.Select_collect_browse_Goods</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Delete_Shop_Car</servlet-name>
+    <servlet-class>com.operater.servlet.Delete_Shop_Car</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Select_collect_browse_num</servlet-name>
+    <servlet-class>com.firstpage.servlet.Select_collect_browse_num</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Delete_UserOrder</servlet-name>
+    <servlet-class>com.order.operater.Delete_UserOrder</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Shop_Car_Add_Subtract</servlet-name>
+    <servlet-class>com.operater.servlet.Shop_Car_Add_Subtract</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Upload_User_Image</servlet-name>
+    <servlet-class>com.operater.servlet.Upload_User_Image</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Strategy_More_Goods</servlet-name>
+    <servlet-class>com.advertisement.servlet.Strategy_More_Goods</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Goods_Collection</servlet-name>
+    <servlet-class>com.operater.servlet.Goods_Collection</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Goods_Strategy_Discount</servlet-name>
+    <servlet-class>com.advertisement.servlet.Goods_Strategy_Discount</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>lx</servlet-name>
+    <url-pattern>/lx</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DruidStatView</servlet-name>
+    <url-pattern>/druid/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>advertisement</servlet-name>
+    <url-pattern>/advertisement</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Select_left_Group</servlet-name>
+    <url-pattern>/Select_left_Group</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Select_right_goods</servlet-name>
+    <url-pattern>/Select_right_goods</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Select_Search_Goods</servlet-name>
+    <url-pattern>/Select_Search_Goods</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Select_GoodsDetail</servlet-name>
+    <url-pattern>/Select_GoodsDetail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Upload_order</servlet-name>
+    <url-pattern>/Upload_order</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Upload_Shop_cart</servlet-name>
+    <url-pattern>/Upload_Shop_cart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Select_order</servlet-name>
+    <url-pattern>/Select_order</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Select_Shop_cart</servlet-name>
+    <url-pattern>/Select_Shop_cart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Select_User_Address</servlet-name>
+    <url-pattern>/Select_User_Address</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Add_User_Address</servlet-name>
+    <url-pattern>/Add_User_Address</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Update_User_Address</servlet-name>
+    <url-pattern>/Update_User_Address</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>User_Log_in</servlet-name>
+    <url-pattern>/User_Log_in</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>User_Register</servlet-name>
+    <url-pattern>/User_Register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Get_TelPhone_Code</servlet-name>
+    <url-pattern>/Get_TelPhone_Code</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Update_User_Pass</servlet-name>
+    <url-pattern>/Update_User_Pass</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Html_Select_Shop_Car</servlet-name>
+    <url-pattern>/Html_Select_Shop_Car</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Set_Address_Default</servlet-name>
+    <url-pattern>/Set_Address_Default</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Delete_Address</servlet-name>
+    <url-pattern>/Delete_Address</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Address_PayWay_SendMoney</servlet-name>
+    <url-pattern>/Address_PayWay_SendMoney</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Select_collect_browse_Goods</servlet-name>
+    <url-pattern>/Select_collect_browse_Goods</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Delete_Shop_Car</servlet-name>
+    <url-pattern>/Delete_Shop_Car</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Select_collect_browse_num</servlet-name>
+    <url-pattern>/Select_collect_browse_num</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Delete_UserOrder</servlet-name>
+    <url-pattern>/Delete_UserOrder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Shop_Car_Add_Subtract</servlet-name>
+    <url-pattern>/Shop_Car_Add_Subtract</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Upload_User_Image</servlet-name>
+    <url-pattern>/Upload_User_Image</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Strategy_More_Goods</servlet-name>
+    <url-pattern>/Strategy_More_Goods</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Goods_Collection</servlet-name>
+    <url-pattern>/Goods_Collection</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Goods_Strategy_Discount</servlet-name>
+    <url-pattern>/Goods_Strategy_Discount</url-pattern>
+  </servlet-mapping>
+</web-app>

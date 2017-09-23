@@ -1,0 +1,50 @@
+
+.mod_mb15 { margin-bottom: 15px }
+.mod_mt15 { margin-top: 15px }
+.mod_lh_m { line-height: 30px }
+.mod_lh_l { line-height: 44px }
+
+img.default { background: url(../images/img/icon_img_default.png) center center no-repeat; -webkit-background-size: 20px 20px; background-size: 20px 20px }
+body, p, h1, h2, h3, h4, ul, ol, li, dl, dt, dd, form { margin: 0; padding: 0; font-size: 100% }
+ul, ol { list-style: none }
+a { text-decoration: none }
+body { -webkit-text-size-adjust: none; line-height: 1.6; font-size: 14px; font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3" }
+em { font-style: normal }
+h1, h2, h3 { font-weight: normal }
+body { word-wrap: break-word; word-break: break-all; -webkit-text-size-adjust: none; background-color: #fbfbfb }
+.qb_icon { display: inline-block; background-repeat: no-repeat }
+ @media screen and (-webkit-device-pixel-ratio:1.5) {
+.qb_icon { -webkit-background-size: auto; background-size: auto }
+}
+.qb_clearfix:after { clear: both; content: "."; display: block; height: 0; visibility: hidden }
+.
+.qb_br { border-radius: 4px }
+.qb_fl { float: left }
+.qb_fr { float: right }
+.qb_gap { padding-left: 10px; padding-right: 10px; margin-bottom: 10px }
+.qb_none { display: none!important }
+.qb_tac { text-align: center }
+.qb_tar { text-align: right }
+.qb_tal { text-align: left }
+.qb_vat { vertical-align: top; max-width: 100% }
+.qb_flex { display: -webkit-box }
+.qb_flex .flex_box { -webkit-box-flex: 1; display: block; width: 0 }
+.qb_flex .flex_box.mod_btn, .qb_flex .flex_box.mod_select { margin-right: 10px }
+.qb_flex .flex_box.mod_select:last-child, .qb_flex .flex_box.mod_btn:last-child { margin-right: 0 }
+.qb_hr { border: 0; border-top: 1px solid #eeeff0; border-bottom: 1px solid #FFF; margin: 10px 0; clear: both }
+
+/*.qb_fs_s { font-size: 12px }
+.qb_fs_m { font-size: 14px }
+.qb_fs_l, body { font-size: 15px }
+.qb_fs_xl { font-size: 17px }
+.mod_btn { font-size: 34px }*/
+
+
+
+.mod_btn.btn_em { border-radius: 5px;color: #fff;background-image: -webkit-gradient(linear, left top, left bottom, from(#e63f35), to(#e63f35)); background-image: -webkit-linear-gradient(top, #e63f35, #e63f35); background-image: linear-gradient(to bottom, #e63f35, #e63f35) }
+.mod_btn.btn_strong {border-radius: 5px;color: #fff; background-image: -webkit-gradient(linear, left top, left bottom, from(#00c421), to(#00c421)); background-image: -webkit-linear-gradient(top, #00c421, #00c421); background-image: linear-gradient(to bottom, #00c421, #00c421) }
+
+.mod_btn.btn_block { display: block; height: 40px; line-height: 40px; font-size: 0.9rem;text-align: center;}
+.mod_btn.btn_tiny { height: 30px; line-height: 30px; font-size: 14px;}
+
+

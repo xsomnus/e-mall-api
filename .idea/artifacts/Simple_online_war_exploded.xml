@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="Simple_online:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Simple_online</output-path>
+    <root id="archive" name="Simple_online_war exploded.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Simple_online" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Simple_online/web/Web" />
+      <element id="module-output" name="Simple_online" />
+    </root>
+  </artifact>
+</component>

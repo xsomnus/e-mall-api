@@ -1,0 +1,14 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+#detail img {
+	width: 100%;
+	bottom: 0;
+}
+#detail p{
+	background: #EEE;
+	height: 40px;
+	line-height: 40px;
+	width: 100%;
+}

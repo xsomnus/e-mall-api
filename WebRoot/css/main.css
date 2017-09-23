@@ -1,0 +1,222 @@
+@charset "utf-8";
+body { 
+	margin: 0;
+	padding: 0;
+	background: #EEE;
+}
+/*banner*/
+#wrapper { 
+	width: 100%;
+	overflow: hidden;
+}
+.swipe ul, .swipe li { 
+	margin: 0;
+	padding: 0;
+	list-style: none; 
+	text-align: center;
+	overflow: hidden;
+}
+.swipe img { 
+	display: block;
+}
+.swipe { 
+	overflow: hidden;
+	position: relative;
+}
+.swipe ul { 
+	-webkit-transition: left 200ms ease-in 0;
+	-moz-transition: left 200ms ease-in 0;
+	-o-transition: left 200ms ease-in 0;
+	-ms-transition: left 200ms ease-in 0;
+	transition: left 200ms ease-in 0; 
+}
+.swipe #pagenavi { 
+	position: absolute;
+	left: 0; 
+	bottom: 5px; 
+	text-align: center;
+	width: 100%;
+}
+.swipe #pagenavi a { 
+	width: 8px;
+	height: 8px; 
+	line-height: 99em;
+	background: rgba(255,255,255,0.5); 
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%; 
+	border-radius: 50%;
+	margin: 0 1px;
+	overflow: hidden;
+	cursor: pointer; 
+	display: inline-block;
+	*display:inline;
+	*zoom:1;
+}
+
+/*产品分类*/
+.category { 
+	width: 100%;
+	background: #FFF;
+	border-bottom: 1px solid #DDD;
+	overflow: hidden;
+	margin-top: 0.6rem;
+}
+.category ul,li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+}
+.category li { 
+	width: 25%; 
+	float: left;
+	text-align: center;}
+.category li a {
+	height: 30px;
+	padding-top: 50px; 
+	line-height: 30px; 
+	display: block;
+	background: url(../img/hot.jpg) no-repeat center 10px; 
+	background-size: 36px auto;
+	color: #333;
+	text-decoration: none;
+	font-size: 0.7rem;
+}
+.category li .vegetables {
+ 	background-image: url(../img/hot.jpg);
+
+}
+.category li .drink { 
+	background-image: url(../img/hot.jpg);
+}
+.category li .wine {
+ 	background-image: url(../img/hot.jpg); 
+}
+.category li .fruit { 
+	background-image: url(../img/hot.jpg);
+}
+
+/*每日特价*/
+.newcp { 
+	width: 100%;
+    background: #FFF;
+    border-bottom: 1px solid #DDD;
+    overflow: hidden;
+    /*padding: 1rem;*/
+}
+.newcp ul,li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.newcp li a { 
+	text-decoration: none;
+}
+.newcp li{
+	margin: 1rem;
+}
+.img01 { 
+	overflow: hidden;
+}
+.name { 
+	font-size: 0.8em;
+	overflow: hidden;
+	color: #333;
+	margin-bottom: 0.3rem;
+}
+.price { 
+	color: #d94141;
+	font-size: 0.8em;
+	overflow: hidden; 
+	font-family:Arial;
+}
+.hot { 
+	height: 30px;
+	line-height: 30px;
+	font-size: 0.8rem;
+	background: #fff;
+	margin-top: 0.6rem;
+	padding-left: 1rem;
+	border-bottom: solid 1px #EEE;
+}
+.more { 
+	float: right; 
+	font-size: 0.8rem;
+}
+.more a {
+	text-decoration: none;
+	color: #333;
+	padding-right: 1rem;
+}
+.shop {
+	width: 100%;
+    background: #FFF;
+    border-bottom: 1px solid #DDD;
+    overflow: hidden;
+    /*padding: 1rem;*/
+}
+.shop ul,li{
+	float: left;
+	margin: 0;
+	padding: 0;
+
+}
+.shop li{
+	margin: 1rem;
+}
+.shop li a {
+	text-decoration: none;
+}
+.recommend ul,li{
+	float: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.recommend {
+	width: 100%;
+    background: #FFF;
+    border-bottom: 1px solid #DDD;
+    overflow: hidden;
+    /*padding: 1rem;*/
+}
+.recommend li{
+	margin:1rem;
+}
+.recommend li a{
+	text-decoration: none;
+}
+/*底部*/
+.foot {
+	width: 100%;
+	background: #333;
+	height: 40px;
+	position: fixed;
+	left: 0; 
+	bottom: 0;
+}
+.foot a { 
+	width: 25%;
+	height: 40px;
+	float: left;
+	display: block;
+	background: url(../img/home.png) no-repeat center; 
+	background-size:auto 22px; 
+	opacity: 0.7;
+}
+#home { 
+	background-image: url(../img/home.png); 
+}
+#sech { 
+	background-image: url(../img/fl.png); 
+}
+#gwc { 
+	background-image: url(../img/gwc.png); 
+}
+#member { 
+	background-image: url(../img/member.png); 
+}
+.foot a:hover, .foot a:active, .foot a.current { 
+	opacity: 1; 
+	background-color: #222;
+}
